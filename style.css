@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 100px auto 50px;
+    min-height: 100vh;
+}
+
+header {
+    background-color: bisque;
+    display: flex;
+}
+
+main {
+    background-color: cadetblue;
+}
+
+footer {
+    background-color: darkslategray;
+}
+
+.overskrif-wrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
