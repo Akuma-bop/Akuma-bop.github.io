@@ -22,10 +22,12 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow: 4px 4px 10px;
 }
 
 footer {
     background-color: darkslategray;
+    
 }
 
 .overskrif-wrapper {
@@ -44,23 +46,32 @@ footer {
 }
 
 .text-wrapper {
-    background: rgb(245, 225, 190);
+    background: rgb(73, 100, 100);
     width: 615px;
     padding-left: 7px;
     padding-bottom: 20px;
     border-radius: 10px;
 }
 
-.start-text {
+.text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: "Sour Gummy", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 250;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: 100;
+    width: 600px;
+    font-size: 16px;
+}
+
+footer p {
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
     font-style: normal;
     font-variation-settings: 100;
     width: 600px;
 }
-
