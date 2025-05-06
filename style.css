@@ -22,7 +22,6 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 4px 4px 10px;
 }
 
 footer {
@@ -74,4 +73,53 @@ footer p {
     font-style: normal;
     font-variation-settings: 100;
     width: 600px;
+}
+
+
+.top {
+    background-color: rgb(47, 43, 54);
+    display: flex;
+}
+
+.button {
+    background: rgb(112, 110, 116);
+    width: 100px;
+    padding-left: 24px;
+    border-radius: 10px;
+    margin-left: 180px;
+}
+
+.innhold {
+    background: rgb(47, 43, 54);
+    width: 650px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    padding-left: 110px;
+    border-radius: 10px;
+    margin-bottom: 150px;
+   
+}
+
+.innhold-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(66, 63, 71);
+    min-height: 100vh;
+}
+
+.top h1 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    padding-right: 25px;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: 100;
+    width: 100;
 }
