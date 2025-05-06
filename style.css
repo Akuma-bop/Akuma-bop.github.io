@@ -82,9 +82,9 @@ footer p {
 }
 
 .button {
-    background: rgb(112, 110, 116);
+    background: rgb(107, 103, 116);
     width: 100px;
-    padding-left: 24px;
+    padding-left: 27px;
     border-radius: 10px;
     margin-left: 180px;
 }
@@ -92,8 +92,8 @@ footer p {
 .innhold {
     background: rgb(47, 43, 54);
     width: 650px;
-    padding-bottom: 80px;
-    padding-top: 80px;
+    padding-bottom: 60px;
+    padding-top: 40px;
     padding-left: 110px;
     border-radius: 10px;
     margin-bottom: 150px;
@@ -122,4 +122,16 @@ footer p {
     font-style: normal;
     font-variation-settings: 100;
     width: 100;
+}
+
+.innhold p {
+    font-size: 30px;
+    padding-left: 100px;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: 100;
+    width: 100;
+    padding-bottom: 5px;
 }
