@@ -81,12 +81,12 @@ footer p {
     display: flex;
 }
 
-.button {
-    background: rgb(117, 112, 124);
+.button-cat {
+    background-color: rgb(97, 117, 117);
     width: 100px;
-    padding-left: 27px;
+    padding-left: 20px;
     border-radius: 10px;
-    margin-left: 180px;
+    margin-left: 250px;
 }
 
 .innhold {
@@ -138,6 +138,18 @@ footer p {
     color: rgb(199, 191, 191);
 }
 
-.button a:hover {
+.button-cat a:hover {
+    color: rgb(199, 191, 191);
+}
+
+.button-front {
+    background: rgb(117, 112, 124);
+    width: 100px;
+    padding-left: 27px;
+    border-radius: 10px;
+    margin-left: 180px;
+}
+
+.button-front a:hover {
     color: rgb(199, 191, 191);
 }
